@@ -12,6 +12,7 @@ enum Argument {
 };
 
 int main(int argc, char* argv[]) {
+
 	assert(argc <= NumArgument);
 
 	//COMƒ‰ƒCƒuƒ‰ƒŠ‚Ì‰Šú‰»
