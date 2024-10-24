@@ -20,6 +20,9 @@ private:
 	//フォルダパスとファイル名を分離する
 	void SeparateFilePath(const std::wstring& filePath);
 
+	//DDSテクスチャとしてファイル書き出し
+	void SaveDDSTextureToFile();
+
 private:
 
 	//画像の情報
